@@ -5,6 +5,7 @@ class Artist
 end
 
 class Artist
+  include Paramable
   attr_accessor :name
   attr_reader :songs
 
