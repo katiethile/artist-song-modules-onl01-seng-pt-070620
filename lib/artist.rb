@@ -1,13 +1,3 @@
-#require_relative '../lib/concerns/memorable'
-
-#class Artist
- # extend Memorable 
-#end
-
-#class Artist
- # extend Findable 
-#end
-
 class Artist
   include Paramable
   attr_accessor :name
