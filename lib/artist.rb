@@ -5,7 +5,7 @@ class Artist
   attr_reader :songs
   
 class Artist
-  extend MetaDancing
+  extend Memorable
 end
 
   @@artists = []
