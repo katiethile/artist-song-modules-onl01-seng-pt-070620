@@ -1,12 +1,12 @@
 #require_relative '../lib/concerns/memorable'
 
 class Artist
-  attr_accessor :name
-  attr_reader :songs
-  
-class Artist
   extend Memorable
 end
+
+class Artist
+  attr_accessor :name
+  attr_reader :songs
 
   @@artists = []
 
