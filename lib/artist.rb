@@ -4,7 +4,9 @@ class Artist
   attr_accessor :name
   attr_reader :songs
   
-
+class Artist
+  extend MetaDancing
+end
 
   @@artists = []
 
